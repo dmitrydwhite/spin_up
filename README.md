@@ -89,7 +89,7 @@ prompt
 
 `curl https://gist.githubusercontent.com/octocat/9257657/raw/3f9569e65df83a7b328b39a091f0ce9c6efc6429/.gitignore > ~/.gitignore_global`
 
-`git config --global user.email "white.dmitry@gmail.com"`
+`git config --global user.email "white.dmitry@gmail.com" # Update with correct email address`
 
 ```
 git config --global user.name "Dmitry White"
