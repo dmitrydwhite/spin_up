@@ -14,6 +14,14 @@ if that doesn't work, check the correct command [here](http://brew.sh/)
 
 `brew install node`
 
+### install nvm
+
+for keeping track of all the node versions
+
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash`
+
+if that doesn't work, troubleshoot [here](http://nvm.sh)
+
 ### install sublime
 
 download sublimetext [here](https://www.sublimetext.com/3)
@@ -26,7 +34,7 @@ make the `subl` shortcut
 
 install [chrome](https://www.google.com/chrome/)
 
-install [spectacle app](https://www.spectacleapp.com/)
+install [spectacle app](https://www.spectacleapp.com/) for MacOS
 
 ## bash profile helpers
 
@@ -40,6 +48,12 @@ export EDITOR="subl -w"
 ```
 
 these will contribute toward having git information in the prompt
+
+include the following line, and include the script from this repo (rename with preceding `.`):
+
+```
+source ~/.git-completion.sh
+```
 
 ```
 # enable git PS1 integration if possible
