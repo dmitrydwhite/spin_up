@@ -30,6 +30,8 @@ make the `subl` shortcut
 
 `ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl`
 
+get any custom snippets from [this repo](./Sublime_Text_Snippets/).  Put them in the Sublime Text folder: `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+
 ## machine setup
 
 install [chrome](https://www.google.com/chrome/)
