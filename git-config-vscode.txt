@@ -1,0 +1,14 @@
+[push]
+	default = current
+[user]
+	name = Dmitry White
+	email = dmitry.white@nike.com
+[core]
+	autocrlf = false
+	editor = code --wait
+[apply]
+	whitespace = nowarn
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	co = checkout
+	ci = commit
