@@ -6,9 +6,13 @@
 
 if that doesn't work, check the correct command [here](http://brew.sh/)
 
+if prompted to install command line tools, choose "yes"
+
 ### install git
 
-`brew install git`
+`brew install git bash-completion`
+
+see [here](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion) for integrating bash completion into the bash profile
 
 ### install node
 
@@ -32,11 +36,37 @@ make the `subl` shortcut
 
 get any custom snippets from [this repo](./Sublime_Text_Snippets/).  Put them in the Sublime Text folder: `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 
+### install vs code
+
+download vs code [here](https://code.visualstudio.com/download)
+
+here is a list of vs code extensions that have come in handy in the past:
+
+* vscode-styled-components by julien poissonnier
+* vs live shaire by microsoft
+* jshint by dirk baeumer
+* import cost by wix
+* graphql for vscode by kumar harsh
+* gitlens -- git supercharged by eric amodio
+* git history by don jayamanne
+* git blame by wade anderson
+* eslint by dirk baeumer
+* editorconfig for vscode by editorconfig
+* debugger for chrome by microsoft
+* css formatter by martin aeschlimann
+* arduino by microsoft
+
+see which one of these two is better for your needs:
+* python for vscode by thomas haakon townsend
+* pyton by microsoft
+
 ## machine setup
 
 install [chrome](https://www.google.com/chrome/)
 
 install [spectacle app](https://www.spectacleapp.com/) for MacOS
+
+install [arduino ide and tools](https://www.arduino.cc/en/Main/Software) for funzies
 
 ## bash profile helpers
 
@@ -56,6 +86,8 @@ include the following line, and include the script from this repo (rename with p
 ```
 source ~/.git-completion.sh
 ```
+
+tinker with the following stuff to get your terminal console set up the way you like
 
 ```
 # enable git PS1 integration if possible
@@ -105,9 +137,8 @@ prompt
 
 `curl https://gist.githubusercontent.com/octocat/9257657/raw/3f9569e65df83a7b328b39a091f0ce9c6efc6429/.gitignore > ~/.gitignore_global`
 
-`git config --global user.email "white.dmitry@gmail.com" # Update with correct email address`
-
 ```
+git config --global user.email "white.dmitry@gmail.com" # Update with correct email address
 git config --global user.name "Dmitry White"
 git config --global core.autocrlf "false"
 git config --global core.excludesfile ~/.gitignore_global
