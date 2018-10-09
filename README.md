@@ -43,7 +43,7 @@ download vs code [here](https://code.visualstudio.com/download)
 here is a list of vs code extensions that have come in handy in the past:
 
 * vscode-styled-components by julien poissonnier
-* vs live shaire by microsoft
+* vs live share by microsoft
 * jshint by dirk baeumer
 * import cost by wix
 * graphql for vscode by kumar harsh
