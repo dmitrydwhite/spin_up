@@ -64,7 +64,9 @@ see which one of these two is better for your needs:
 
 install [chrome](https://www.google.com/chrome/)
 
-install [spectacle app](https://www.spectacleapp.com/) for MacOS
+install [rectangle app](https://rectangleapp.com/)
+
+install [iterm2](https://iterm2.com/downloads.html) and [powerlevel10k](https://github.com/romkatv/powerlevel10k#get-started) for cool-looking terminal
 
 install [arduino ide and tools](https://www.arduino.cc/en/Main/Software) for funzies
 
