@@ -42,23 +42,31 @@ download vs code [here](https://code.visualstudio.com/download)
 
 here is a list of vs code extensions that have come in handy in the past:
 
-* vscode-styled-components by julien poissonnier
-* vs live share by microsoft
-* jshint by dirk baeumer
-* import cost by wix
+* Older Stuff, maybe evaluate it:
+  * vscode-styled-components by julien poissonnier
+  * jshint by dirk baeumer
+  * import cost by wix
 * graphql for vscode by kumar harsh
 * gitlens -- git supercharged by eric amodio
-* git history by don jayamanne
-* git blame by wade anderson
-* eslint by dirk baeumer
+  * git history by don jayamanne
+  * git blame by wade anderson
+* eslint by dirk baeumer or by Microsoft
 * editorconfig for vscode by editorconfig
 * debugger for chrome by microsoft
 * css formatter by martin aeschlimann
 * arduino by microsoft
+* YAML by Red Hat
+* vscode-icons by VSCode Icons Team
+* REST Client by Huachao Mao
+* Remote Development Pack by Microsoft
+* Python and Pylance by Microsoft
+* Prettier - Code Formatter by Prettier
+* Live Frame by jevakallio
+* Jupyter by Microsoft
+* JSON Schema Diagnostics by Peter Rosser
+* Color Highlight by sergii Naumov
+* Auto Rename Tag by Jun Han
 
-see which one of these two is better for your needs:
-* python for vscode by thomas haakon townsend
-* pyton by microsoft
 
 ## machine setup
 
